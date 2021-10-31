@@ -18,6 +18,10 @@ def hello_world():  # put application's code here
 def greet(name=""):
     return "Hello {}".format(name)
 
+# Two URLs
+# http://127.0.0.1:5000/greet
+# http://127.0.0.1:5000/greet/shibin
+
 
 if __name__ == '__main__':
     app.run()
